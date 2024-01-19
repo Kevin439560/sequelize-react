@@ -2,21 +2,21 @@
 
 module.exports = (sequelize, DataTypes) => {
 
-    const Pedido = sequelize.define("Pedido",{
-        
-        Id: {
-            type: DataTypes.INTEGER,
-            allowNull: false,
-            autoIncrement: true,
-            primaryKey: true,
-            required: true
-        },
+  const Pedido = sequelize.define("Pedido",{
+      
+    Id: {
+        type: DataTypes.INTEGER,
+        allowNull: false,
+        autoIncrement: true,
+        primaryKey: true,
+        required: true
+    },
 
-    });
+  });
 
 
 
-    return Pedido;
+  return Pedido;
 }
 
 
