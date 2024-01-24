@@ -1,0 +1,52 @@
+.navbar{
+
+    height: 15vh;
+    background: #000;
+    color: white;
+}
+
+.navLink{
+
+    color:rgb(0, 0, 0);
+    text-decoration: none;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: xx-large;
+    
+}
+
+.navHome{
+
+    background-color:white;
+    margin-left: 20px;
+    transition: 0.2s ease;
+    border: 3px solid black;
+
+}
+
+.navHome:hover{
+
+    color:white;
+    background-color: #000;
+    border-color: white;
+
+}
+
+.navLinha{
+
+    display: flex;
+    
+}
+
+
+@media(max-width:790px){
+    .navHome{
+
+        width:100px;
+    }
+    .navLink{
+        font-size: large
+    }
+    .navLinha{
+        display:block;
+    }
+}
